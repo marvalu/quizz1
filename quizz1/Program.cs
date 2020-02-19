@@ -14,34 +14,34 @@ namespace quizz1
 
             //empieza
 
-            //Operaciones operaciones = new Operaciones();
-            //Doctor doctor1 = new Doctor("marco1", 1, "val", 12, "pediatra");
-            //Doctor doctor2 = new Doctor("marco2", 1, "val", 123, "pediatra");
-            //Doctor doctor3 = new Doctor("marco3", 1, "val", 1234, "pediatra");
+            Operaciones operaciones = new Operaciones();
+            Doctor doctor1 = new Doctor("marco1", 1, "val", 12, "pediatra");
+            Doctor doctor2 = new Doctor("marco2", 1, "val", 123, "pediatra");
+            Doctor doctor3 = new Doctor("marco3", 1, "val", 1234, "pediatra");
 
 
-            //Cliente cliente1 = new Cliente("dieg1", 2, "dd", 11);
-            //Cliente cliente2 = new Cliente("dieg2", 3, "dd", 12);
-            //Cliente cliente3 = new Cliente("dieg3", 4, "dd", 13);
-            //Cliente cliente4 = new Cliente("dieg4", 5, "dd", 14);
-            //Cliente cliente5 = new Cliente("dieg5", 5, "dd", 15);
-            //Cliente cliente6 = new Cliente("dieg6", 5, "dd", 16);
-            //Cliente cliente7 = new Cliente("dieg7", 5, "dd", 17);
-            //Cliente cliente8 = new Cliente("dieg8", 5, "dd", 18);
-            //Cliente cliente9 = new Cliente("dieg9", 5, "dd", 19);
-            //Cliente cliente10 = new Cliente("dieg10", 5, "dd", 20);
+            Cliente cliente1 = new Cliente("dieg1", 2, "dd", 11);
+            Cliente cliente2 = new Cliente("dieg2", 3, "dd", 12);
+            Cliente cliente3 = new Cliente("dieg3", 4, "dd", 13);
+            Cliente cliente4 = new Cliente("dieg4", 5, "dd", 14);
+            Cliente cliente5 = new Cliente("dieg5", 5, "dd", 15);
+            Cliente cliente6 = new Cliente("dieg6", 5, "dd", 16);
+            Cliente cliente7 = new Cliente("dieg7", 5, "dd", 17);
+            Cliente cliente8 = new Cliente("dieg8", 5, "dd", 18);
+            Cliente cliente9 = new Cliente("dieg9", 5, "dd", 19);
+            Cliente cliente10 = new Cliente("dieg10", 5, "dd", 20);
 
 
 
-            //operaciones.iNSERTAR(doctor);
-            //operaciones.iNSERTAR(doctor1);
-            //operaciones.iNSERTAR(doctor2);
-            //operaciones.iNSERTAR(doctor3);
-            //operaciones.iNSERTAR(doctor4);
-            //operaciones.iNSERTAR(cliente);
-            //operaciones.iNSERTAR(cliente1);
-            //operaciones.iNSERTAR(cliente2);
-            //operaciones.iNSERTAR(cliente3);
+
+            operaciones.iNSERTAR(doctor1);
+            operaciones.iNSERTAR(doctor2);
+            operaciones.iNSERTAR(doctor3);
+
+            
+            operaciones.iNSERTAR(cliente1);
+            operaciones.iNSERTAR(cliente2);
+            operaciones.iNSERTAR(cliente3);
 
             //termina
 
@@ -120,8 +120,9 @@ namespace quizz1
             //    while (cont >= 0)
             //    {
             //        var itemTipo = operaciones.Buscar(cont);
-
-            //        if ((((Doctor)itemTipo).Nombre) != docAsignado)
+            //        doctorLista = "Marco1";
+            //        //ToString((((Doctor)itemTipo).Nombre));
+            //        if (doctorLista != tipo)
             //        {
 
             //            Citas citas = new Citas(123, docAsignado, "Diego", horaCita);
@@ -130,7 +131,7 @@ namespace quizz1
             //        else
             //        {
 
-            //           Console.WriteLine("El doctor requerido se encuentra ocupado");
+            //            Console.WriteLine("El doctor requerido se encuentra ocupado");
 
             //        }
 
@@ -145,15 +146,23 @@ namespace quizz1
             //Termina metodo citas
             //********************************************
 
+            Console.WriteLine("\n");
+            Citas citas123 = new Citas();
+            Citas citas1234 = new Citas();
+            citas123.iNSERTAR(citas1234);
+            
+
+            citas123.Eliminar(0);
+
+
+            Console.WriteLine("eliminado");
 
 
 
 
+            //Elminar citas
 
-
-
-
-
+            
 
 
 

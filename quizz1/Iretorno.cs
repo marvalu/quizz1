@@ -7,7 +7,7 @@ namespace quizz1
     public interface Iretorno
     {
 
-        public void retorno();
+         void retorno();
 
     }
 }
